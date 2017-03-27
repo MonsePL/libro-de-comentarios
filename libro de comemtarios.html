@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>LIBRO DE COMENTARIOS</title>
+  </head>
+  <body>
+
+    <h1 ><font color="#ce47d6"; size="7"; face=helevetica >Comentarios</h1>
+
+
+
+    <form>
+
+      <table  width="200" border="5" bordercolor="pink"  ALIGN=center >
+        <tr>
+          <td><strong><input type="button" value="Texto Grande" onclick="textoGrande()" style="width:130px; height:50px; background:#07f6c0; border-radius:8px" ></strong></td>
+          <td><strong><input type="button" value="Texto Mediano" onclick="textoMediano()" style="width:130px;; height:50px; background:#07f6c0; border-radius:8px" ></strong></td>
+          <td><strong><input type="button" value="Texto Chico" onclick="textoChico()" style="width:130px; height:50px; background:#07f6c0; border-radius:8px" ></strong></td>
+          <td><strong><input type="button" value="Color de texto" onclick="textoColor()" style="width:130px; height:50px; background:#07f6c0; border-radius:8px" ></strong></td>
+          <td><strong><input type="button" value="Color de fondo" onclick="cambiarFondo()"  style="width:130px; height:50px; background:#07f6c0; border-radius:8px" ></strong></td>
+          <td><strong><input type="button" value="Alinear Izquierda" onclick="izquierda()" style="width:130px; height:50px; background:#07f6c0; border-radius:8px" ></strong></td>
+          <td><strong><input type="button" value="Centrar" onclick="centrar()" style="width:130px; height:50px; background:#07f6c0; border-radius:8px" ></strong></td>
+          <td><strong><input type="button" value="Alinear derecha" onclick="derecha()" style="width:130px; height:50px; background:#07f6c0; border-radius:8px" ></strong></td>
+        </tr>
+      </table>
+
+      <br>
+
+      <table   ALIGN=center >
+        <tr>
+          <td ><textarea cols="130" name="comentarios" rows="10" id="cajita" oninput="textoabajito()"  ></textarea></td>
+        </tr>
+      </table>
+
+     <table  hspace="200" >
+       <tr >
+         <td ><font color="#ce47d6"; size="5"; face=helevetica >Tus comentarios</td>
+       </tr>
+     </table>
+
+     <div id="textoabajo"  ></div>
+
+     <br>
+
+     <input type="reset" value="Borrar todo" /> <input type="submit" value="Enviar" />
+
+   </form>
+
+   <script type="text/javascript" src = "libro de comentarios.js">  </script>
+
+
+  </body>
+</html>
